@@ -3,8 +3,11 @@ body {
   padding: 0;
   background-image: url(Images/Background.jpg);
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
 }
+
 /*Navigation Bar*/
 nav {
   display: flex;
@@ -38,28 +41,221 @@ ul {
   margin: 0 10px;
   object-fit: cover;
 }
+
 /*Section 1*/
-.Section1 {
-  display:flex;
+.Section {
+  display: flex;
   flex-direction: column;
-  margin: 20px auto;
-  padding:50px;
-  font-size: 48px;
+  margin: 5px auto;
+  padding: 50px;
   width: 70%;
+  height: 600px;
+  box-sizing: border-box;
   font-family: "Candara", sans-serif;
   border-style: solid;
   border-color: black;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 30px;
 }
-.Section1 h1 {
+
+.Section h1 {
+  padding: 0;
   margin: 0;
 }
-.Section1 p {
-  font-size: 24px;
-  text-align: center;
-  text-align:left;
+
+.Section-Content2 {
+  position: relative;
+  min-height: 600px;
+  top: 350px;
 }
-.Nursefathers-Images {
-   width: 50px;
+
+/*Section 2*/
+.Finger-Circle {
+  position: absolute;
+  width: 1160px;
+  height: 1160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(Images/HouseOfSpiders.webp);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.Finger-Orbit {
+  position: absolute;
+  width: 50px;
   height: 50px;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.Finger-Text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+  min-height: 400px;
+  padding: 35px;
+
+  border: 2px solid white;
+  background-color: black;
+  text-align: center;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.Finger-Text h1 {
+  font-size: 40px;
+}
+
+.Finger-Text p {
+  font-size: 24px;
+}
+
+.Nursefathers-Images {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
+  position: absolute;
+  border-radius: 10px;
+}
+.Thumb-Orbit {
+  transform-origin: center;
+  animation: thumb-move 10s linear infinite;
+}
+
+@keyframes thumb-move {
+  from {
+    transform: rotate(0deg) translateY(-475px);
+  }
+
+  to {
+    transform: rotate(360deg) translateY(-475px);
+  }
+}
+.Thumb-Orbit .Nursefathers-Images {
+  animation: thumb-stay-upright 10s linear infinite;
+}
+
+@keyframes thumb-stay-upright {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.Index-Orbit {
+  animation: index-move 10s linear infinite;
+}
+
+@keyframes index-move {
+  from {
+    transform: rotate(72deg) translateY(-475px);
+  }
+
+  to {
+    transform: rotate(432deg) translateY(-475px);
+  }
+}
+.Index-Orbit .Nursefathers-Images {
+  animation: index-stay-upright 10s linear infinite;
+}
+
+@keyframes index-stay-upright {
+  from {
+    transform: rotate(-72deg);
+  }
+
+  to {
+    transform: rotate(-432deg);
+  }
+}
+.Middle-Orbit {
+  animation: middle-move 10s linear infinite;
+}
+
+@keyframes middle-move {
+  from {
+    transform: rotate(144deg) translateY(-475px);
+  }
+
+  to {
+    transform: rotate(504deg) translateY(-475px);
+  }
+}
+.Middle-Orbit .Nursefathers-Images {
+  animation: middle-stay-upright 10s linear infinite;
+}
+
+@keyframes middle-stay-upright {
+  from {
+    transform: rotate(-144deg);
+  }
+
+  to {
+    transform: rotate(-504deg);
+  }
+}
+.Ring-Orbit {
+  animation: ring-move 10s linear infinite;
+}
+
+@keyframes ring-move {
+  from {
+    transform: rotate(216deg) translateY(-475px);
+  }
+
+  to {
+    transform: rotate(576deg) translateY(-475px);
+  }
+}
+
+.Ring-Orbit .Nursefathers-Images {
+  animation: ring-stay-upright 10s linear infinite;
+}
+
+@keyframes ring-stay-upright {
+  from {
+    transform: rotate(-216deg);
+  }
+
+  to {
+    transform: rotate(-576deg);
+  }
+}
+.Pinky-Orbit {
+  animation: pinky-move 10s linear infinite;
+}
+
+@keyframes pinky-move {
+  from {
+    transform: rotate(288deg) translateY(-475px);
+  }
+
+  to {
+    transform: rotate(648deg) translateY(-475px);
+  }
+}
+
+.Pinky-Orbit .Nursefathers-Images {
+  animation: pinky-stay-upright 10s linear infinite;
+}
+
+@keyframes pinky-stay-upright {
+  from {
+    transform: rotate(-288deg);
+  }
+
+  to {
+    transform: rotate(-648deg);
+  }
 }
