@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3b3838;
+  color: white;
+}
+/*Navigation Bar*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+.Logo img {
+  width: 50px;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-right: 3%;
+  padding-left: 0;
+}
+
+.Nav-Icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  object-fit: cover;
+}
+/*Section 1*/
+.Section1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 48px;
+  margin: 0;
+  font-family: "Candara", sans-serif;
+  border-style: solid;
+  border-color: black;
+}
+.Section1 p {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
