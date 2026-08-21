@@ -43,34 +43,15 @@ ul {
 }
 
 /*Section 1*/
-.Section1 {
-  display: flex;
-  flex-direction: column;
+.hero {
   margin: 5px auto;
   padding: 50px;
-  width: 70%;
-  height: 600px;
-  box-sizing: border-box;
   font-family: "Candara", sans-serif;
-  border-style: solid;
-  border-color: black;
-  background-color: black;
-  border-radius: 10px;
-  font-size: 30px;
-}
-
-.Section h1 {
-  padding: 0;
-  margin: 0;
-}
-
-.Section-Content2 {
   position: relative;
   min-height: 600px;
-  top: 360px;
+  top: 230px;
 }
 
-/*Section 2*/
 .Finger-Circle {
   position: absolute;
   width: 1160px;
