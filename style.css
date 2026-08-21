@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -42,70 +45,87 @@ ul {
   object-fit: cover;
 }
 
-/*Section 1*/
+/*Introduction*/
 .hero {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    font-family: "Candara", sans-serif;
-    overflow: hidden;
+  position: relative;
+  min-height: 1170px;
+  padding: 0;
+  margin: 0;
+  font-family: "Candara", sans-serif;
 }
 
 .Finger-Circle {
-    position: absolute;
-    width: min(90vw, 900px);
-    height: min(90vw, 900px);
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    background-image: url(Images/HouseOfSpiders.webp);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-
-    border: 2px solid white;
-    border-radius: 50%;
+  position: absolute;
+  width: 1160px;
+  height: 1160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(Images/HouseOfSpiders.webp);
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 50%;
 }
 
 .Finger-Orbit {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-
-    top: 50%;
-    left: 50%;
-    margin: -150px 0 0 -150px;
-}
-
-.Nursefathers-Images {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
 }
 
 .Finger-Text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-    width: 400px;
-    min-height: 400px;
-    padding: 35px;
+  width: 400px;
+  min-height: 400px;
+  padding: 35px;
 
-    border: 2px solid white;
-    background-color: black;
-    text-align: center;
-
-    z-index: 2;
-    box-sizing: border-box;
-    border-radius: 20px;
+  border: 2px solid red;
+  background-color: black;
+  text-align: center;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
+
+.Finger-Text h1 {
+  font-size: 40px;
+}
+
+.Finger-Text p {
+  font-size: 24px;
+}
+
+.LearnMore {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: aliceblue;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.LearnMore:hover {
+  color: red;
+
+}
+
+.Nursefathers-Images {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 10px;
+}
+
 .Thumb-Orbit {
   transform-origin: center;
   animation: thumb-move 10s linear infinite;
@@ -120,6 +140,7 @@ ul {
     transform: rotate(360deg) translateY(-475px);
   }
 }
+
 .Thumb-Orbit .Nursefathers-Images {
   animation: thumb-stay-upright 10s linear infinite;
 }
@@ -133,6 +154,7 @@ ul {
     transform: rotate(-360deg);
   }
 }
+
 .Index-Orbit {
   animation: index-move 10s linear infinite;
 }
@@ -146,6 +168,7 @@ ul {
     transform: rotate(432deg) translateY(-475px);
   }
 }
+
 .Index-Orbit .Nursefathers-Images {
   animation: index-stay-upright 10s linear infinite;
 }
@@ -159,6 +182,7 @@ ul {
     transform: rotate(-432deg);
   }
 }
+
 .Middle-Orbit {
   animation: middle-move 10s linear infinite;
 }
@@ -172,6 +196,7 @@ ul {
     transform: rotate(504deg) translateY(-475px);
   }
 }
+
 .Middle-Orbit .Nursefathers-Images {
   animation: middle-stay-upright 10s linear infinite;
 }
@@ -185,6 +210,7 @@ ul {
     transform: rotate(-504deg);
   }
 }
+
 .Ring-Orbit {
   animation: ring-move 10s linear infinite;
 }
@@ -212,6 +238,7 @@ ul {
     transform: rotate(-576deg);
   }
 }
+
 .Pinky-Orbit {
   animation: pinky-move 10s linear infinite;
 }
@@ -238,4 +265,20 @@ ul {
   to {
     transform: rotate(-648deg);
   }
+}
+
+/*TheFiveFingers*/
+.TheFingers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 1200px;
+}
+
+.TheFingers h1 {
+  font-size: 100px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }
