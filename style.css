@@ -282,3 +282,21 @@ ul {
   text-decoration-thickness: 3px;
     text-underline-offset: 10px;
 }
+
+.TheThumb {
+  border: 2px solid white;
+  width: 100%;
+  padding: 10px;
+}
+.TheIndex {
+
+}
+.TheMiddle {
+
+}
+.TheRing {
+
+}
+.ThePinky {
+
+}
