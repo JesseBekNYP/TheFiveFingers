@@ -60,28 +60,37 @@
       </p>
       <a href="#Fingers" class="LearnMore">Learn More</a>
     </div>
-    
+
     </div>
   </section>
 
   <section class="TheFingers" id="Fingers">
     <h1>Explore the fingers</h1>
-      <div class="TheThumb"></div>
-      <div class="TheIndex"></div>
-      <div class="TheMiddle"></div>
-      <div class="TheRing"></div>
-      <div class="ThePinky"></div>
+    <div class="TheThumb">
+      <h2>The Thumb</h2>
+    </div>
+    <div class="TheIndex">
+      <h2>The Index</h2>
+    </div>
+    <div class="TheMiddle">
+      <h2>The Middle</h2>
+    </div>
+    <div class="TheRing">
+      <h2>The Ring</h2>
+    </div>
+    <div class="ThePinky">
+      <h2>The Pinky</h2>
     </div>
   </section>
   <script>
-    document.querySelector(".LearnMore").addEventListener("click", function(event) {
-        event.preventDefault();
+    document.querySelector(".LearnMore").addEventListener("click", function (event) {
+      event.preventDefault();
 
-        document.querySelector("#Fingers").scrollIntoView({
-            behavior: "smooth"
-        });
+      document.querySelector("#Fingers").scrollIntoView({
+        behavior: "smooth"
+      });
     });
-</script>
+  </script>
 </body>
 
 </html>

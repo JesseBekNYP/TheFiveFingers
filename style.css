@@ -14,11 +14,14 @@ body {
 
 /*Navigation Bar*/
 nav {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: black;
   width: 100%;
   box-sizing: border-box;
+  z-index: 998;
 }
 
 .Logo {
@@ -288,15 +291,15 @@ ul {
 }
 
 .TheThumb {
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid white;
-    padding: 80px;
-
-    background-image: url("Images/ThumbBanner.webp");
-    background-size: cover;
-    background-position: center 35%;
-    background-repeat: no-repeat;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid white;
+  padding: 80px;
+  background-image: url("Images/ThumbBanner.webp");
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 .TheIndex {
@@ -305,9 +308,10 @@ ul {
   border: 2px solid white;
   padding: 80px;
   background-image: url("Images/IndexBanner.webp");
-    background-size: cover;
-    background-position: center 40%;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 .TheMiddle {
@@ -316,9 +320,10 @@ ul {
   border: 2px solid white;
   padding: 80px;
   background-image: url("Images/MiddleBanner.jpg");
-    background-size: cover;
-    background-position: center 33%;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 .TheRing {
@@ -327,9 +332,10 @@ ul {
   border: 2px solid white;
   padding: 80px;
   background-image: url("Images/RingBanner.webp");
-    background-size: cover;
-    background-position: center 35%;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 .ThePinky {
@@ -338,7 +344,16 @@ ul {
   border: 2px solid white;
   padding: 80px;
   background-image: url("Images/PinkyBanner.webp");
-    background-size: cover;
-    background-position: center 35%;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.TheFingers h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+  font-size: 48px;
 }
