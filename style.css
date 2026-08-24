@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(Images/Background.jpg);
+  background-image:   linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Images/Background.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -302,6 +302,7 @@ ul {
   padding: 40px;
   gap: 50px;
   border-radius: 20px;
+  text-decoration: none;
 }
 .CharacterGroup {
   display: flex;
@@ -325,7 +326,8 @@ ul {
   object-fit: contain;
 }
 .FingerGifThumb.Valencina {
-  width: 180px
+  width: 180px;
+  margin-left: 200px;
 }
 .FingerGifThumb.Lucio {
   width: 165px;
@@ -401,8 +403,10 @@ width: 70px;
   text-align: center;
   text-shadow: 5px 5px 10px black;
   font-size: 48px;
+  text-decoration:none;
+  color: white;
 }
-.TheRing h2 {
+.TheRing h2, .TheThumb h2, .ThePinky h2 {
   position:absolute;
 }
 .FingerGifPinky {
@@ -412,4 +416,7 @@ width: 70px;
 }
 .FingerGifPinky.Ren {
   width: 180px;
+}
+.FingerGifPinky.JiaQiu {
+  margin-right: 200px;
 }
