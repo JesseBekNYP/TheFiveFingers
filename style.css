@@ -305,16 +305,22 @@ ul {
 }
 
 .TheThumb {
-  background-image: url("Images/ThumbBanner.webp");
-  background-size: cover;
-  background-position: center 35%;
-  background-repeat: no-repeat;
-  border-radius: 20px;
+    min-height: 350px;
+    background-image: url("Images/ThumbBanner.webp");
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
 }
-.FingerGif
- {
-width: 75px;
-height: 75px;
+.FingerGif {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+.CharacterGroup {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .Left {
   transform: scaleX(-1);
