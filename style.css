@@ -24,8 +24,6 @@ nav {
 .Logo {
   display: flex;
   align-items: center;
-  text-decoration: none;
-  margin-left: 3%;
 }
 
 .Logo img {
@@ -40,12 +38,19 @@ ul {
   padding-right: 3%;
   padding-left: 0;
 }
+ul a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Candara", sans-serif;
+  color: white;
+}
 
 .Nav-Icon {
   width: 50px;
   height: 50px;
-  margin: 0 10px;
   object-fit: cover;
+  margin-left:4px;
 }
 
 /*Introduction*/
