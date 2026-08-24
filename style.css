@@ -14,14 +14,11 @@ body {
 
 /*Navigation Bar*/
 nav {
-  position: sticky;
-  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: black;
   width: 100%;
   box-sizing: border-box;
-  z-index: 998;
 }
 
 .Logo {
@@ -298,33 +295,36 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
   border: 2px solid white;
-  padding: 80px;
+  padding: 0;
 }
 
 .TheThumb {
-    min-height: 350px;
-    background-image: url("Images/ThumbBanner.webp");
-    background-size: cover;
-    background-position: center 35%;
-    background-repeat: no-repeat;
-    border-radius: 20px;
+  background-image: url("Images/ThumbBanner.webp");
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
 }
+
 .FingerGif {
-    width: 150px;
-    height: auto;
-    object-fit: contain;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
 }
+
 .CharacterGroup {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
 .Left {
   transform: scaleX(-1);
 }
+
 .TheIndex {
   background-image: url("Images/IndexBanner.webp");
   background-size: cover;
