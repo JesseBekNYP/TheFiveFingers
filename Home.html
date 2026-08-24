@@ -74,6 +74,15 @@
       <div class="ThePinky"></div>
     </div>
   </section>
+  <script>
+    document.querySelector(".LearnMore").addEventListener("click", function(event) {
+        event.preventDefault();
+
+        document.querySelector("#Fingers").scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+</script>
 </body>
 
 </html>
