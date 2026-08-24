@@ -295,34 +295,34 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 90%;
+  height: 300px;
   box-sizing: border-box;
-  width: 100%;
   border: 2px solid white;
-  padding: 0;
+  padding: 40px;
+  gap: 50px;
+  border-radius: 20px;
 }
-
+.CharacterGroup {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+   height: 100%;
+}
+.Left {
+  transform: scaleX(-1);
+}
 .TheThumb {
   background-image: url("Images/ThumbBanner.webp");
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
-  border-radius: 20px;
 }
 
-.FingerGif {
+.FingerGifThumb {
   width: 150px;
   height: auto;
   object-fit: contain;
-}
-
-.CharacterGroup {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.Left {
-  transform: scaleX(-1);
 }
 
 .TheIndex {
@@ -330,15 +330,20 @@ ul {
   background-size: cover;
   background-position: center 40%;
   background-repeat: no-repeat;
-  border-radius: 20px;
 }
-
+.FingerGifIndex {
+ width: 80px;
+ height: auto;
+ object-fit: contain;
+}
+.FingerGifIndex.Left {
+width: 70px;
+}
 .TheMiddle {
   background-image: url("Images/MiddleBanner.jpg");
   background-size: cover;
   background-position: center 33%;
   background-repeat: no-repeat;
-  border-radius: 20px;
 }
 
 .TheRing {
@@ -346,7 +351,6 @@ ul {
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
-  border-radius: 20px;
 }
 
 .ThePinky {
@@ -354,7 +358,6 @@ ul {
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
-  border-radius: 20px;
 }
 
 .TheFingers h2 {
