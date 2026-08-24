@@ -290,23 +290,36 @@ ul {
   margin: 0;
 }
 
-.TheThumb {
+.TheThumb,
+.TheIndex,
+.TheMiddle,
+.TheRing,
+.ThePinky {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   box-sizing: border-box;
   border: 2px solid white;
   padding: 80px;
+}
+
+.TheThumb {
   background-image: url("Images/ThumbBanner.webp");
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
   border-radius: 20px;
 }
-
+.FingerGif
+ {
+width: 75px;
+height: 75px;
+}
+.Left {
+  transform: scaleX(-1);
+}
 .TheIndex {
-  width: 100%;
-  box-sizing: border-box;
-  border: 2px solid white;
-  padding: 80px;
   background-image: url("Images/IndexBanner.webp");
   background-size: cover;
   background-position: center 40%;
@@ -315,10 +328,6 @@ ul {
 }
 
 .TheMiddle {
-  width: 100%;
-  box-sizing: border-box;
-  border: 2px solid white;
-  padding: 80px;
   background-image: url("Images/MiddleBanner.jpg");
   background-size: cover;
   background-position: center 33%;
@@ -327,10 +336,6 @@ ul {
 }
 
 .TheRing {
-  width: 100%;
-  box-sizing: border-box;
-  border: 2px solid white;
-  padding: 80px;
   background-image: url("Images/RingBanner.webp");
   background-size: cover;
   background-position: center 35%;
@@ -339,10 +344,6 @@ ul {
 }
 
 .ThePinky {
-  width: 100%;
-  box-sizing: border-box;
-  border: 2px solid white;
-  padding: 80px;
   background-image: url("Images/PinkyBanner.webp");
   background-size: cover;
   background-position: center 35%;
