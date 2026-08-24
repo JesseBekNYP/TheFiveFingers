@@ -324,6 +324,12 @@ ul {
   height: auto;
   object-fit: contain;
 }
+.FingerGifThumb.Valencina {
+  width: 180px
+}
+.FingerGifThumb.Lucio {
+  width: 165px;
+}
 
 .TheIndex {
   background-image: url("Images/IndexBanner.webp");
@@ -336,7 +342,7 @@ ul {
  height: auto;
  object-fit: contain;
 }
-.FingerGifIndex.Left {
+.FingerGifIndex.Left.Rien{
 width: 70px;
 }
 .TheMiddle {
@@ -356,15 +362,34 @@ width: 70px;
 .FingerGifMiddle.Kira{
   width: 100px;
 }
+
 .TheRing {
   background-image: url("Images/RingBanner.webp");
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
 }
-
+.FingerGifRing {
+  width:100px;
+ height: auto;
+  object-fit: contain;
+}
+.FingerGifRing.Left.Callisto {
+  width: 340px;
+  margin-right: 200px;
+}
+.FingerGifRing.Left.Albina {
+  width:120px;
+}
+.FingerGifRing.Rufo {
+  width: 170px;
+}
+.FingerGifRing.YiSang {
+  width: 170px;
+  transform: translateY(45px) scaleX(-1);
+}
 .ThePinky {
-  background-image: url("Images/PinkyBanner.webp");
+  background-image: url("Images/PinkyBanner.png");
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
@@ -376,4 +401,15 @@ width: 70px;
   text-align: center;
   text-shadow: 5px 5px 10px black;
   font-size: 48px;
+}
+.TheRing h2 {
+  position:absolute;
+}
+.FingerGifPinky {
+  width:220px;
+ height: auto;
+  object-fit: contain;
+}
+.FingerGifPinky.Ren {
+  width: 180px;
 }
