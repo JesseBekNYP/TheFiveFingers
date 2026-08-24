@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image:   linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Images/Background.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Images/Background.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -304,15 +304,18 @@ ul {
   border-radius: 20px;
   text-decoration: none;
 }
+
 .CharacterGroup {
   display: flex;
   align-items: flex-end;
   gap: 10px;
   height: 100%;
 }
+
 .Left {
   transform: scaleX(-1);
 }
+
 .TheThumb {
   background-image: url("Images/ThumbBanner.webp");
   background-size: cover;
@@ -325,10 +328,12 @@ ul {
   height: auto;
   object-fit: contain;
 }
+
 .FingerGifThumb.Valencina {
   width: 180px;
   margin-left: 200px;
 }
+
 .FingerGifThumb.Lucio {
   width: 165px;
 }
@@ -339,29 +344,35 @@ ul {
   background-position: center 40%;
   background-repeat: no-repeat;
 }
+
 .FingerGifIndex {
- width: 80px;
- height: auto;
- object-fit: contain;
+  width: 80px;
+  height: auto;
+  object-fit: contain;
 }
-.FingerGifIndex.Left.Rien{
-width: 70px;
+
+.FingerGifIndex.Left.Rien {
+  width: 70px;
 }
+
 .TheMiddle {
   background-image: url("Images/MiddleBanner.jpg");
   background-size: cover;
   background-position: center 33%;
   background-repeat: no-repeat;
 }
+
 .FingerGifMiddle {
   width: 140px;
   height: auto;
   object-fit: contain;
 }
-.FingerGifMiddle.Left.Werner{
+
+.FingerGifMiddle.Left.Werner {
   width: 100px;
 }
-.FingerGifMiddle.Kira{
+
+.FingerGifMiddle.Kira {
   width: 100px;
 }
 
@@ -371,25 +382,31 @@ width: 70px;
   background-position: center 35%;
   background-repeat: no-repeat;
 }
+
 .FingerGifRing {
-  width:100px;
- height: auto;
+  width: 100px;
+  height: auto;
   object-fit: contain;
 }
+
 .FingerGifRing.Left.Callisto {
   width: 340px;
   margin-right: 200px;
 }
+
 .FingerGifRing.Left.Albina {
-  width:120px;
+  width: 120px;
 }
+
 .FingerGifRing.Rufo {
   width: 170px;
 }
+
 .FingerGifRing.YiSang {
   width: 170px;
   transform: translateY(45px) scaleX(-1);
 }
+
 .ThePinky {
   background-image: url("Images/PinkyBanner.png");
   background-size: cover;
@@ -403,20 +420,26 @@ width: 70px;
   text-align: center;
   text-shadow: 5px 5px 10px black;
   font-size: 48px;
-  text-decoration:none;
+  text-decoration: none;
   color: white;
 }
-.TheRing h2, .TheThumb h2, .ThePinky h2 {
-  position:absolute;
+
+.TheRing h2,
+.TheThumb h2,
+.ThePinky h2 {
+  position: absolute;
 }
+
 .FingerGifPinky {
-  width:220px;
- height: auto;
+  width: 220px;
+  height: auto;
   object-fit: contain;
 }
+
 .FingerGifPinky.Ren {
   width: 180px;
 }
+
 .FingerGifPinky.JiaQiu {
   margin-right: 200px;
 }
